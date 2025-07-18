@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIACOM S.A.C. | Inicio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Hero Section -->
+      <header class="relative w-full min-h-screen">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" 
+            alt="Hero BIACOM" 
+            class="absolute inset-0 w-full h-full object-cover object-center z-0"
+            onerror="this.src='https://via.placeholder.com/1600x900?text=Imagen+Hero';">
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-white text-center px-4 z-10">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">Vive tu próximo lugar con BIACOM S.A.C.</h1>
+          <div class="bg-white bg-opacity-90 backdrop-blur p-4 rounded-lg flex flex-wrap gap-4 justify-center w-full max-w-3xl">
+            <select class="p-2 rounded border w-40">
+              <option>Ciudad/Distrito</option>
+            </select>
+            <select class="p-2 rounded border w-40">
+              <option>Tipo de propiedad</option>
+            </select>
+            <select class="p-2 rounded border w-40">
+              <option>Precio mínimo</option>
+            </select>
+            <button class="px-6 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 transition">Buscar</button>
+          </div>
+        </div>
+      </header>
+      
+    <!-- Proyectos Destacados -->
+    <section class="py-12 px-4 max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center">Proyectos Destacados</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/400x300/?house" class="w-full h-48 object-cover" alt="Los Olivos">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Los Olivos</h3>
+            <p>Miraflores<br>$250,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Departamento</span>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/400x300/?villa" class="w-full h-48 object-cover" alt="Lomas del Mar">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Lomas del Mar</h3>
+            <p>San Isidro<br>$190,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://source.unsplash.com/400x300/?building" class="w-full h-48 object-cover" alt="Punta Blanca">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Punta Blanca</h3>
+            <p>Chorrillos<br>$320,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por qué BIACOM -->
+    <section class="bg-blue-900 text-white py-12">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div>
+          <h3 class="text-2xl font-semibold mb-2">Confianza</h3>
+          <p>Financiamiento propio y asesoría personalizada.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-2">Experiencia</h3>
+          <p>Más de 10 años desarrollando proyectos inmobiliarios.</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-2">Ubicaciones Estratégicas</h3>
+          <p>Propiedades en zonas de alta valorización.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+      <p>&copy; 2025 BIACOM S.A.C. | Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
