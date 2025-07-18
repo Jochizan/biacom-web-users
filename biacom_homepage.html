@@ -9,6 +9,24 @@
   <body class="bg-gray-50 text-gray-800">
     <!-- Hero Section -->
       <header class="relative w-full min-h-screen">
+        <nav id="navbar" class="fixed top-0 left-0 w-full bg-white shadow z-50 py-4 px-6 hidden transition-opacity duration-500">
+          <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-900">BIACOM S.A.C.</h1>
+            <ul class="hidden md:flex space-x-6 text-gray-800 font-medium">
+              <li><a href="#inicio" class="hover:text-blue-700">Inicio</a></li>
+              <li><a href="#nosotros" class="hover:text-blue-700">Nosotros</a></li>
+              <li><a href="#proyectos" class="hover:text-blue-700">Proyectos</a></li>
+              <li><a href="#contacto" class="hover:text-blue-700">Contacto</a></li>
+            </ul>
+            <!-- Menú móvil opcional -->
+            <button class="md:hidden">
+              <svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+            </button>
+          </div>
+        </nav>
         <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" 
             alt="Hero BIACOM" 
             class="absolute inset-0 w-full h-full object-cover object-center z-0"
@@ -31,42 +49,43 @@
       </header>
       
     <!-- Proyectos Destacados -->
-      <section class="py-12 px-4 max-w-7xl mx-auto">
-        <h2 class="text-3xl font-semibold mb-8 text-center">Proyectos Destacados</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          
-          <divclass="bg-white rounded shadow overflow-hidden">
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
-                class="w-full h-48 object-cover" alt="Los Olivos">
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Los Olivos</h3>
-              <p>Miraflores<br>$250,000</p>
-              <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Departamento</span>
-            </div>
-          </div>
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center">Proyectos Destacados</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-          <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
-                class="w-full h-48 object-cover" alt="Lomas del Mar">
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Lomas del Mar</h3>
-              <p>San Isidro<br>$190,000</p>
-              <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
-            </div>
+        <div class="bg-white rounded shadow overflow-hidden max-w-sm mx-auto">
+          <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
+              class="w-full h-48 object-cover" alt="Los Olivos">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Los Olivos</h3>
+            <p>Miraflores<br>$250,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Departamento</span>
           </div>
-
-          <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
-                class="w-full h-48 object-cover" alt="Punta Blanca">
-            <div class="p-4">
-              <h3 class="text-xl font-semibold">Punta Blanca</h3>
-              <p>Chorrillos<br>$320,000</p>
-              <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
-            </div>
-          </div>
-
         </div>
-      </section>
+
+        <div class="bg-white rounded shadow overflow-hidden max-w-sm mx-auto">
+          <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
+              class="w-full h-48 object-cover" alt="Lomas del Mar">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Lomas del Mar</h3>
+            <p>San Isidro<br>$190,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded shadow overflow-hidden max-w-sm mx-auto">
+          <img src="https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&h=300&w=600"
+              class="w-full h-48 object-cover" alt="Punta Blanca">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Punta Blanca</h3>
+            <p>Chorrillos<br>$320,000</p>
+            <span class="inline-block mt-2 px-2 py-1 bg-yellow-600 text-white text-sm rounded">Lanzamiento</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- Por qué BIACOM -->
     <section class="bg-blue-900 text-white py-12">
@@ -90,5 +109,15 @@
     <footer class="bg-gray-900 text-gray-400 py-6 text-center">
       <p>&copy; 2025 BIACOM S.A.C. | Todos los derechos reservados</p>
     </footer>
+    <script>
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+          navbar.classList.remove('hidden');
+        } else {
+          navbar.classList.add('hidden');
+        }
+      });
+    </script>
   </body>
 </html>
